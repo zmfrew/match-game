@@ -37,6 +37,11 @@ p {
   color: rgb(74,74,74);
 }
 
+div#game {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .card {
   display: flex;
   justify-content: center;
@@ -49,4 +54,5 @@ p {
   font-weight: 900;
   color: rgb(255, 255, 255);
   cursor: pointer;
+  width: 25%;
 }
