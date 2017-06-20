@@ -2,13 +2,75 @@
 <html>
 <head>
   <title>Match Game</title>
+  <link href="./css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <link href="./css/text.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+
+  <div class="container">
+
+    <div class="row">
+
+      <!-- Instructions to play -->
+      <div class="col-md-3 col-xs-12">
+        <h1>Match Game</h1>
+        <h2>Rules</h2>
+        <p>
+          Click on a card to reveal the number on the other side. Click on a second card to try and find a match to the first. If you succeed, the pair will be removed from play. If not, try again!
+        </p>
+        <h2>How To Win</h2>
+        <p>
+          You win when all pairs have been found
+        </p>
+      </div>
+
+      <!-- Gameboard grid -->
+      <div class="cold-md-9 col-xs-12" id="game">
+        <div class="col-xs-3 card">
+        </div>
+        <div class="col-xs-3 card">
+        </div>
+        <div class="col-xs-3 card">
+        </div>
+        <div class="col-xs-3 card">
+        </div>
+        <div class="col-xs-3 card">
+        </div>
+        <div class="col-xs-3 card">
+        </div>
+        <div class="col-xs-3 card">
+        </div>
+        <div class="col-xs-3 card">
+        </div>
+        <div class="col-xs-3 card">
+        </div>
+        <div class="col-xs-3 card">
+        </div>
+        <div class="col-xs-3 card">
+        </div>
+        <div class="col-xs-3 card">
+        </div>
+        <div class="col-xs-3 card">
+        </div>
+        <div class="col-xs-3 card">
+        </div>
+        <div class="col-xs-3 card">
+        </div>
+        <div class="col-xs-3 card">
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Javascript and jQuery links -->
   <script
     src="https://code.jquery.com/jquery-3.1.1.min.js"
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
     crossorigin="anonymous"></script>
   <script type="text/javascript" src="./resources/js/match-game.js"></script>
   <script type="text/javascript" src="./resources/js/tests.js"></script>
+
 </body>
 </html>
